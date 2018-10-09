@@ -5,9 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.16.3",
-    "socket.io": "^2.1.1"
+    "lodash": "^4.17.11",
+    "socket.io": "^2.1.1",
+    "uuid": "^3.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
